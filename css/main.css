@@ -6,7 +6,11 @@
 }
 
 html {
-  font-size: 1rem;
+  font-size: 18px;
+  max-width: 1440px;
+}
+html body {
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,7 +18,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 96px;
+  padding-top: 96px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -40,14 +44,57 @@ h1 {
   font-size: 50px;
 }
 
+.button {
+  position: absolute;
+  top: 19rem;
+  left: 920px;
+}
+
 button {
   margin-top: 32px;
   height: 48px;
   width: 128px;
   border-radius: 50px;
   border: none;
-  background-color: #e4c1ae;
+  background-color: #f35b09;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
+  -webkit-transition: all 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: all 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+button:hover {
+  cursor: pointer;
+  background-color: #df9770;
+}
+
+.counter-value {
+  display: inline-block;
+}
+
+.popup-wrapper {
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 56px 96px;
+  width: 920px;
+  height: 210px;
+  background-color: #fff;
+  display: none;
+}
+
+.popup-close {
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  right: 46px;
+  padding-top: -5px;
 }/*# sourceMappingURL=main.css.map */
