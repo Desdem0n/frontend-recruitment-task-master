@@ -1,0 +1,53 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 96px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.image {
+  display: inline-block;
+  margin-left: 230px;
+}
+
+.txt {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  margin-left: 95px;
+}
+.txt p {
+  width: 380px;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 50px;
+}
+
+button {
+  margin-top: 32px;
+  height: 48px;
+  width: 128px;
+  border-radius: 50px;
+  border: none;
+  background-color: #e4c1ae;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}/*# sourceMappingURL=main.css.map */
